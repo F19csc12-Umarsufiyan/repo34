@@ -1,0 +1,16 @@
+sudo su 
+apt-get update 
+apt-get install docker.io -y 
+docker version 
+docker pull umar449/my-new-image:12 
+docker images 
+docker run -d -p 80:80 umar449/my-new-image:12
+docker ps 
+docker ps -a 
+
+///gitconfig 
+gitconfig --global user.name "F19csc12-Umarsufiyan"
+gitconfig --global user.email "umarsufiyan94@gmail.com" 
+
+
+
